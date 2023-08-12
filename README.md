@@ -5,7 +5,7 @@
 3. Paste the capabilities in setUp method. Be sure "username", "acceskey" and "build" keys matches to your saucelabs account
   ![alt text](https://github.com/sadelax/prueba-selenium-grid/blob/main/saucelabs-screenshot.png)
 5. Download the jar selenium server (grid) file in Selenium official downloads page.
-6. Run ``java -jar selenium-server-4.11.0.jar standalone`` in the directory where jar is located.
+6. Run ``java -jar selenium-server-<version>.jar standalone`` in the directory where jar is located.
 7. Run the test (TestGridSauceLabs.java)
 8. Tests results available in saucelabs dashboard.
 
