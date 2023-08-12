@@ -17,3 +17,4 @@
 si hace falta el chromedriver y no tenemos permisos de administrador en el mac:
 1. ``brew install --cask chromedriver``
 2. ``xattr -cr /opt/homebrew/bin/chromedriver`` (ruta donde se haya descargado el chromedriver)
+3. run standalone de nuevo
