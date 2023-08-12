@@ -3,7 +3,9 @@
 1. auth at https://saucelabs.com/
 2. Automated Testing/Sauce Selenium Quickstart, choose Java
 3. Paste the capabilities in setUp method. Be sure "username", "acceskey" and "build" keys matches to your saucelabs account
-  ![](https://github.com/sadelax/prueba-selenium-grid/blob/main/saucelabs-screenshot.png | width=10)
+   
+  ![](https://github.com/sadelax/prueba-selenium-grid/blob/main/saucelabs-screenshot.png)
+
 5. Download the jar selenium server (grid) file in Selenium official downloads page.
 6. Run ``java -jar selenium-server-<version>.jar standalone`` in the directory where jar is located.
 7. Run the test (TestGridSauceLabs.java)
