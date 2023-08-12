@@ -3,10 +3,11 @@
 1. auth at https://saucelabs.com/
 2. Automated Testing/Sauce Selenium Quickstart, choose Java
 3. Paste the capabilities in setUp method. Be sure "username", "acceskey" and "build" keys matches to your saucelabs account
-4. Download the jar selenium server (grid) file in Selenium official downloads page.
-5. Run ``java -jar selenium-server-4.11.0.jar standalone`` in the directory where jar is located.
-6. Run the test (TestGridSauceLabs.java)
-7. Tests results available in saucelabs dashboard.
+  ![alt text](https://github.com/sadelax/prueba-selenium-grid/blob/main/saucelabs-screenshot.png)
+5. Download the jar selenium server (grid) file in Selenium official downloads page.
+6. Run ``java -jar selenium-server-4.11.0.jar standalone`` in the directory where jar is located.
+7. Run the test (TestGridSauceLabs.java)
+8. Tests results available in saucelabs dashboard.
 
 ## local test
 1. RemoteWebDriver es la clase que permite interactuar con un navegador remoto en Selenium Grid. Toma una URL (en este caso, "http://localhost:4444") que apunta al hub de Selenium Grid y las opciones del navegador (chromeOptions) como argumentos. Esto establece la conexión con el nodo del Grid que cumple con las capacidades proporcionadas.
